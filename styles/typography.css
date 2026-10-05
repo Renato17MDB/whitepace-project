@@ -1,0 +1,70 @@
+/*
+    REGULAR ---- 400
+    BOLD ----- 700
+*/
+
+/*TITULOS*/
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: var(--title-footer);
+}
+
+h2{
+    font-size: 36px;
+    text-align: center;
+}
+/*#212529*/
+.work-management h2, 
+.customize-it-to-your-needs h2,
+.pricing h2,
+.your-data h2,
+.our-sponsors h2,
+.testimonials h2{
+    color: var(--color-text-secondary);
+}
+
+/*#FFF*/
+.use-as-extension h2,
+.your-work h2,
+.apps h2,
+.free-trial h2{
+    color: var(--title-footer);
+}
+
+.your-work h2,
+.free-trial h2{
+    text-align: left;
+}
+/*PARAGRAFOS*/
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var(--title-footer);
+}
+
+.customize-it-to-your-needs p{
+    line-height: 23px;
+}
+
+.work-management p,
+.customize-it-to-your-needs p,
+.pricing p,
+.your-data p
+.testimonials p{
+    color: var(--color-text-secondary);
+}
+
+.your-work p,
+.free-trial p{
+    text-align: left;
+}
+/*LINKS*/
+
+/*BOTOES*/

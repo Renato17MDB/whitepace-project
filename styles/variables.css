@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Xanh+Mono:ital@0;1&display=swap');
+
+:root{
+    --bg--primary:#043873;
+
+    --color-btn:#4F9CF9;
+    --title-footer:#FFF;
+    --links-footer:#FFE492;
+
+    --color-text:#F7F7EE;
+    --color-text-secondary: #212529;
+
+    --font-primary: "Inter", sans-serif;
+
+}

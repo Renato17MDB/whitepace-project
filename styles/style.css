@@ -1,0 +1,20 @@
+@import url(./reset.css);
+@import url(./variables.css);
+@import url(./typography.css);
+@import url(./main.css);
+@import url(./hero-section.css);
+@import url(./work-section.css);
+body{
+    background: var(--bg--primary);
+    font-family: var(--font-primary);
+}
+
+.container{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
