@@ -1,0 +1,38 @@
+.free-trial{
+    padding: 100px 16px 32px 16px;
+    gap: 200px;
+}
+
+.free-trial > .heading{
+    align-items: flex-start;
+}
+
+.app-icon{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .free-trial{
+        padding: 140px 20px 32px 20px;
+    }
+
+    .free-trial .text-block{
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1152px) {
+    .free-trial{
+        padding: 140px 32px 32px;
+    }
+
+    .free-trial > .heading{
+        align-items: center;
+    }
+
+    .free-trial .text-block{
+        align-items: center;
+    }
+}

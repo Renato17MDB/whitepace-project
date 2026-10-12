@@ -1,0 +1,13 @@
+.use-as-extension{
+    padding: 80px 16px;
+    gap: 60px;
+}
+
+.use-as-extension > .heading{
+    align-items: center;
+}
+
+.use-as-extension h2 span::before{
+    position: relative;
+    z-index: 1;
+}

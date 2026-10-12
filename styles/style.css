@@ -1,9 +1,14 @@
 @import url(./reset.css);
+
 @import url(./variables.css);
 @import url(./typography.css);
+
 @import url(./main.css);
 @import url(./hero-section.css);
 @import url(./work-section.css);
+@import url(./use-as-extenson-section.css);
+@import url(./sponsors-section.css);
+@import url(./free-trials-section.css);
 body{
     background: var(--bg--primary);
     font-family: var(--font-primary);

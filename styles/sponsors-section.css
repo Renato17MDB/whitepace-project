@@ -1,0 +1,53 @@
+.our-sponsors{
+    padding: 80px 16px;
+    align-items: center;
+    gap: 100px;
+}
+.sponsors{
+    align-items: center;
+    gap: 100px;
+}
+.our-sponsors h2 span{
+    position: relative;
+    z-index: 1;
+}
+
+.our-sponsors h2 span::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/Element_2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    left: 15px;
+    top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .our-sponsors{
+        padding: 140px 20px;
+    }
+
+    .our-sponsors h2 span::before{
+        left: 20px;
+        top: 30px;
+    }
+}
+
+@media screen and (min-width: 1152px) {
+    .our-sponsors{
+        padding: 140px 32px;
+    }
+
+    .sponsors{
+        flex-direction: row;
+    }
+
+    .our-sponsors h2 span::before{
+        left: 30px;
+        top: 40px;
+    }
+}
