@@ -1,0 +1,51 @@
+.work-management{
+    gap: 100px;
+    padding: 80px 16px;
+}
+
+.content{
+    width: 100%;
+    gap: 60px;
+}
+
+.image-container-image{
+    background: transparent;
+    background-image: url(../img/Work\ Together\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .work-management{
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (min-width: 1152px) {
+    .work-management{
+        padding: 140px 32px;
+    }
+
+    .work-management .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+
+    .work-management .content.reverse{
+        flex-direction: row-reverse;
+    }
+
+    .work-management .content > .heading,
+    .work-management .content > .image-container{
+        flex: 1 1 0;
+        min-width: 0;
+    }
+
+    .work-management h2{
+        max-width: 400px;
+    }
+}

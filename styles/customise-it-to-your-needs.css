@@ -1,0 +1,22 @@
+.customise-it-your-needs{
+    padding: 100px 16px;
+    gap: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .customise-it-your-needs{
+        padding: 140px 20px;
+    }
+}
+
+@media screen and (min-width: 1152px){
+    .customise-it-your-needs{
+        padding: 140px 32px;
+        flex-direction: row !important;
+    }
+
+    .customise-it-your-needs > *{
+        flex: 1 1 0;
+        min-width: 0;
+    }
+}

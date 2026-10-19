@@ -1,0 +1,23 @@
+.use-as-extension{
+    gap: 60px;
+    padding: 80px 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .use-as-extension{
+        padding: 100px 32px;
+    }
+}
+
+@media screen and (min-width: 1152px) {
+    .use-as-extension{
+        flex-direction: row !important;
+        padding: 140px 32px;
+        gap: 98px;
+    }
+
+    .use-as-extension > *{
+        flex: 1 1 0;
+        min-width: 0;
+    }
+}

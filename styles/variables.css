@@ -4,13 +4,14 @@
     --bg--primary:#043873;
     --bg--secondary:#FFE492;
 
-    --color-btn:#4F9CF9;
-    --title-footer:#FFF;
-    --links-footer:#FFE492;
+    --color--btn:#4F9CF9;
+    --color--image--container:#C4DEFD;
+    --title--footer:#FFF;
+    --links--footer:#FFE492;
 
-    --color-text:#F7F7EE;
-    --color-text-secondary: #212529;
+    --color--text:#F7F7EE;
+    --color--text-secondary: #212529;
 
-    --font-primary: "Inter", sans-serif;
+    --font--primary: "Inter", sans-serif;
 
 }

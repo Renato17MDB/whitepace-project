@@ -1,107 +1,106 @@
-/*
-    REGULAR ---- 400
-    BOLD ----- 700
-*/
-
-/*1 rem ------ 16px */
-
-/*TITULOS*/
-h1,h2,h3,h4,h5{
-    font-weight: 700;
-}
-
 h1{
     font-size: 36px;
+    font-weight: 700;
     text-align: center;
-    color: var(--title-footer);
+    line-height: 50px;
+    color: var(--title--footer);
 }
 
-h2{
+.work-management h2{
     font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+}
+
+.use-as-extension h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    color: var(--title--footer);
+}
+
+.use-as-extension h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+}
+
+.customise-it-your-needs h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
     text-align: center;
 }
-/*#212529*/
-.work-management h2, 
-.customize-it-to-your-needs h2,
-.pricing h2,
-.your-data h2,
-.our-sponsors h2,
-.testimonials h2{
-    color: var(--color-text-secondary);
-}
 
-/*#FFF*/
-.use-as-extension h2,
-.your-work h2,
-.apps h2,
-.free-trial h2{
-    color: var(--title-footer);
-}
-
-.your-work h2,
-.free-trial h2{
-    text-align: left;
-}
-/*PARAGRAFOS*/
 p{
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
-    color: var(--title-footer);
+    flex-wrap: wrap;
+    color: var(--title--footer);
 }
 
-.customize-it-to-your-needs p{
-    line-height: 23px;
+.work-management h2,
+.customise-it-your-needs h2{
+    color: var(--color--text-secondary);
 }
 
 .work-management p,
-.customize-it-to-your-needs p,
-.pricing p,
-.your-data p,
-.testimonials p{
-    color: var(--color-text-secondary);
+.customise-it-your-needs p{
+    color: var(--color--text-secondary);
 }
 
-
-
-.your-work p,
-.free-trial p{
-    text-align: left;
-}
-/*LINKS*/
-
-/*BOTOES*/
 .general-btn{
-    font-size: 16px;
-    color: var(--title-footer);
-    line-height: 23px;
-    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--title--footer);
 }
+
 @media screen and (min-width: 768px) {
-    .our-sponsors h2,
-    .free-trial h2{
+    h1{
         font-size: 54px;
     }
 
+    .work-management h2{
+        font-size: 54px;
+    }
 
-    .free-trial p{
-        text-align: left;
+    .use-as-extension h2{
+        font-size: 54px;
+    }
+
+    .customise-it-your-needs h2{
+        font-size: 54px;
     }
 }
 
 @media screen and (min-width: 1152px) {
-    .our-sponsors h2{
+    h1{
         font-size: 64px;
+        text-align: left;
     }
 
-    .free-trial h2{
-        font-size: 72px;
+    p{
+        text-align: left;
     }
 
-    .free-trial p{
-        font-size: 24px;
-        line-height: 32px;
-        text-align: center;
+    .work-management h2{
+        font-size: 64px;
+        text-align: left;
+    }
+
+    .use-as-extension h2{
+        font-size: 64px;
+        text-align: left;
+    }
+
+    .customise-it-your-needs h2{
+        font-size: 64px;
+        text-align: left;
     }
 }

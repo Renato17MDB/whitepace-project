@@ -5,21 +5,24 @@
 
 @import url(./main.css);
 @import url(./hero-section.css);
-@import url(./work-section.css);
-@import url(./use-as-extenson-section.css);
-@import url(./sponsors-section.css);
-@import url(./free-trials-section.css);
+@import url(./work-management-section.css);
+@import url(./use-as-extension-section.css);
+@import url(./customise-it-to-your-needs.css);
+
 body{
-    background: var(--bg--primary);
-    font-family: var(--font-primary);
+    color: var(--title-footer);
+    font-family: var(--font--primary);
 }
 
 .container{
-    overflow-x: hidden;
     width: 100%;
-    height: 100vh;
+    overflow-x: hidden;
+    background: var(--bg--primary);
+
+}
+
+.column-flex{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
