@@ -1,0 +1,69 @@
+.pricing{
+    padding: 80px 16px;
+    gap: 60px;
+}
+
+.price-board{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    border: 1px solid #FFE492;
+}
+
+.price-list{}
+
+.price-board  .text-block{
+    align-items: flex-start;
+}
+
+.bullet-point{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.bullet-point li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bullet-point li::before{
+    content: "";
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bullet-point li span{
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
+
+/*CARROSSEL*/
+
+.swiper{
+    width: 100%;
+}
+
+.swiper-pagination{
+    position: relative;
+    margin-top: 30px;
+}

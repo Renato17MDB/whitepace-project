@@ -3,11 +3,12 @@
 @import url(./variables.css);
 @import url(./typography.css);
 
-@import url(./main.css);
+@import url(./main.css); 
 @import url(./hero-section.css);
 @import url(./work-management-section.css);
 @import url(./use-as-extension-section.css);
 @import url(./customise-it-to-your-needs.css);
+@import url(./pricing-section.css);
 
 body{
     color: var(--title-footer);

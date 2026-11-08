@@ -1,40 +1,60 @@
+/*TÍTULOS*/
+
+h1, h2{
+    text-align: center;
+    font-weight: 700;
+    line-height: 52px;
+}
+
 h1{
     font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 50px;
     color: var(--title--footer);
 }
 
 .work-management h2{
     font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 50px;
 }
 
 .use-as-extension h2{
     font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 50px;
     color: var(--title--footer);
 }
 
 .use-as-extension h2{
     font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 50px;
 }
 
 .customise-it-your-needs h2{
     font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    text-align: center;
+
 }
 
+.pricing h2{
+    font-size: 40px;
+}
+
+.price-list h3{
+    color: #FFF;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.work-management h2,
+.customise-it-your-needs h2,
+.pricing h2{
+    color: var(--color--text--secondary);
+}
+
+/*LISTAS*/
+.bullet-point li{
+    color: #FEFEFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*PARAGRAFOS*/
 p{
     font-size: 18px;
     font-weight: 400;
@@ -44,16 +64,18 @@ p{
     color: var(--title--footer);
 }
 
-.work-management h2,
-.customise-it-your-needs h2{
-    color: var(--color--text-secondary);
-}
-
 .work-management p,
-.customise-it-your-needs p{
-    color: var(--color--text-secondary);
+.customise-it-your-needs p,
+.pricing > .heading p{
+    color: var(--color--text--secondary);
 }
 
+.number{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/*BUTTONS*/
 .general-btn{
     font-size: 18px;
     line-height: 30px;
