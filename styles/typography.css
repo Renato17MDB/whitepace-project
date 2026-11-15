@@ -40,6 +40,10 @@ h1{
     font-weight: 600;
 }
 
+.your-work .text-block h2{
+    color: var(--title--footer);
+}
+
 .work-management h2,
 .customise-it-your-needs h2,
 .pricing h2{
@@ -88,17 +92,22 @@ p{
         font-size: 54px;
     }
 
-    .work-management h2{
+    .work-management h2,
+    .use-as-extension h2,
+    .customise-it-your-needs h2
+    .pricing > .heading h2,
+    .your-work > .heading h2{
         font-size: 54px;
     }
 
-    .use-as-extension h2{
-        font-size: 54px;
+    .your-work .text-block h2{
+        text-align: left;
     }
 
-    .customise-it-your-needs h2{
-        font-size: 54px;
+    .your-work .text-block p{
+        text-align: left;
     }
+
 }
 
 @media screen and (min-width: 1152px) {
@@ -111,18 +120,27 @@ p{
         text-align: left;
     }
 
-    .work-management h2{
+    .work-management h2,
+    .use-as-extension h2,
+    .customise-it-your-needs,
+    .pricing > .heading h2,
+    .your-work .text-block h2{
         font-size: 64px;
+    }
+
+    /*TÍTULOS À ESQUERDA*/
+    .work-management h2,
+    .use-as-extension h2,
+    .customise-it-your-needs h2
+    .your-work > .heading h2{
         text-align: left;
     }
 
-    .use-as-extension h2{
-        font-size: 64px;
-        text-align: left;
+    .pricing  .heading p{
+        text-align: center;
     }
 
-    .customise-it-your-needs h2{
-        font-size: 64px;
-        text-align: left;
+    .your-work .text-block p{
+        text-align: center;
     }
 }

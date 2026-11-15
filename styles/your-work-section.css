@@ -1,0 +1,46 @@
+.your-work{
+    padding: 100px 16px 140px 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.fingerprint{
+    position: absolute;
+    background-image: url(../img/Element_3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    width: 680.74px;
+    height: 491.34px;
+    right: 0;
+}
+
+.your-work > .heading{
+    align-items: flex-start;
+}
+
+.your-work  .text-block{
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+    .your-work{
+        padding: 140px 20px;
+    }
+
+    .your-work .text-block{
+        width: 80%;
+    }
+
+    /* .fingerprint{
+        height: 691.34px;
+        right: 300px;
+    } */
+}
+
+@media screen and (min-width: 1152px) {
+    .your-work{
+        padding: 140px 32px;
+    }
+}

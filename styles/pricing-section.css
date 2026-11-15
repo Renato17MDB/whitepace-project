@@ -1,6 +1,12 @@
 .pricing{
     padding: 80px 16px;
     gap: 60px;
+
+}
+
+.pricing > .heading{
+    width: 100%;
+    align-items: center;
 }
 
 .price-board{
@@ -10,13 +16,14 @@
     align-items: flex-start;
     gap: 25px;
     border-radius: 10px;
-    width: 100%;
-    min-width: 0;
     box-sizing: border-box;
     border: 1px solid #FFE492;
+    transition: 
+        background-color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+        border: 0.3s ease;
 }
-
-.price-list{}
 
 .price-board  .text-block{
     align-items: flex-start;
@@ -56,6 +63,13 @@
     overflow-wrap: break-word;
 }
 
+.choose-plan-btn{
+    background: transparent;
+    padding: 16px 40px;
+    border: 1px solid #FFE492;
+    border-radius: 8px;
+    transition: background 0.4s ease;
+}
 
 /*CARROSSEL*/
 
@@ -63,7 +77,44 @@
     width: 100%;
 }
 
+/*TRANSIÇÃO*/
+.price-board:hover{
+    background: var(--bg--primary);
+    transform: scale(1.04) translateZ(30px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    border-color: transparent;
+}
+
+.price-board:hover .choose-plan-btn{
+    background: var(--bg--primary);
+    border-color: transparent;
+}
+
+
 .swiper-pagination{
     position: relative;
     margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .pricing{
+        padding: 140px 20px;
+    }
+
+    .price-board{
+        width: 65%;
+        height: auto;
+        padding: 40px 44px;
+    }
+
+}
+
+@media screen and (min-width: 1152px) {
+    .pricing{
+        padding: 140px 32px;
+    }
+
+    .swiper-pagination{
+        display: none;
+    }
 }

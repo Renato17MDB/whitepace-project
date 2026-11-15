@@ -9,6 +9,7 @@
 @import url(./use-as-extension-section.css);
 @import url(./customise-it-to-your-needs.css);
 @import url(./pricing-section.css);
+@import url(./your-work-section.css);
 
 body{
     color: var(--title-footer);
@@ -26,4 +27,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.white-section{
+    background: #FFF;
+    width: 100%;
+    box-sizing: border-box;
 }
